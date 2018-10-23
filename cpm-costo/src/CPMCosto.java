@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class CPMCosto {
 	private String[][] actividades = null;
@@ -90,10 +92,24 @@ public class CPMCosto {
 	}
 	
 	private void paso3() {
+		ArrayList<String> rutas_unicas = new ArrayList<String>();
+		
+		for(int j = 1; j < tamanoDeArreglo(this.actividades); j++) {
+			String actividad = this.actividades[j][0];
+			String precedencia = this.actividades[j][1];
+			
+			String[] precedencias = precedencia.split(",");
+			for(int i = 0; i < precedencias.length; i++) {
+				char punto = precedencias[i].charAt(0);
+				
+				rutas_unicas.add(                   );
+			}
+			
+		}
 		// obtener rutas unicas
-		
-		
-		
+		for(char i = 'A'; i < 'Z'; i++) {
+			
+		}
 	}
 	
 	private int tamanoDeArreglo(Object[] in) {
