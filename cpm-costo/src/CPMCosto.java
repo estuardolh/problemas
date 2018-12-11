@@ -58,7 +58,7 @@ public class CPMCosto {
 	}
 	
 	private void paso1() {
-		// TODO: diagrama de red aqui 
+		// TODO: generar diagrama de red aqui, json?,graphiz?
 	}
 	
 	private void paso2() {
@@ -93,7 +93,7 @@ public class CPMCosto {
 	
 	private void paso3() {
 		imprimirTabla(this.actividades);
-		
+		/*
 		ArrayList<String> rutas_unicas = new ArrayList<String>();
 		
 		for(int j = 0; j < tamanoDeArreglo(this.actividades); j++) {
@@ -113,10 +113,10 @@ public class CPMCosto {
 			}
 		}
 		
-		// obtener rutas unicas
 		for(char i = 'A'; i < 'Z'; i++) {
 			
 		}
+		*/
 	}
 	
 	private int tamanoDeArreglo(Object[] in) {
