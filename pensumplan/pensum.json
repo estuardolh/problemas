@@ -1,0 +1,108 @@
+{
+	"pensum":{
+		"org":"UMG"
+		, "sub":"ING"
+		, "spec":"SYS"
+		, "cycles":[
+			{
+				"name": "PRIMER CICLO"
+				, "courses":[
+				{"code":"910001", "name":"DESARROLLO HUMANO Y PROFESIONAL", "credits":4, "requires":[], "min":0}
+				, {"code":"910002", "name":"METODOLOGIA DE LA INVESTIGACION", "credits":5, "requires":[], "min":0}
+				, {"code":"910003", "name":"CONTABILIDAD I", "credits":5, "requires":[], "min":0}
+				, {"code":"910004", "name":"INTRODUCCION A LOS SISTEMAS DE COMPUTO", "credits":5, "requires":[], "min":0}
+				, {"code":"910005", "name":"LOGICA DE SISTEMAS", "credits":5, "requires":[], "min":0}
+				]
+			}
+			, {
+				"name":"SEGUNDO CICLO"
+				, "courses":[
+				{"code":"910006", "name":"PRECALCULO", "credits":5, "requires":[], "min":0}
+				, {"code":"910007", "name":"ALGEBRA LINEAL", "credits":5, "requires":[], "min":0}
+				, {"code":"910008", "name":"ALGORITMOS", "credits":5, "requires":[], "min":0}
+				, {"code":"910009", "name":"CONTABILIDAD II", "credits":5, "requires":[], "min":0}
+				, {"code":"910010", "name":"MATEMATICA DISCRETA", "credits":5, "requires":[], "min":0}
+				]
+			}
+			, {
+				"name":"TERCER CICLO"
+				, "courses":[
+				{"code":"910011", "name":"FISICA I", "credits":5, "requires":["910006"], "min":0}
+				, {"code":"910012", "name":"PROGRAMACION I", "credits":5, "requires":["910008"], "min":0}
+				, {"code":"910013", "name":"CALCULO I", "credits":5, "requires":["910006"], "min":0}
+				, {"code":"910014", "name":"PROCESO ADMINISTRATIVO", "credits":4, "requires":[], "min":0}
+				, {"code":"910015", "name":"DERECHO INFORMATICO", "credits":5, "requires":[], "min":0}
+				]
+			}
+			, {
+				"name":"CUARTO CICLO"
+				, "courses":[
+				{"code":"910016", "name":"MICROECONOMIA", "credits":5, "requires":[], "min":0}
+				, {"code":"910017", "name":"PROGRAMACION II", "credits":5, "requires":["910012"], "min":0}
+				, {"code":"910018", "name":"CALCULO II", "credits":5, "requires":["910013"], "min":0}
+				, {"code":"910019", "name":"ESTADISTICA I", "credits":5, "requires":[], "min":0}
+				, {"code":"910020", "name":"FISICA II", "credits":5, "requires":["910011"], "min":0}
+				]
+			}
+			, {
+				"name":"QUINTO CICLO"
+				, "courses":[
+				{"code":"910021", "name":"METODOS NUMERICOS", "credits":5, "requires":[], "min":70}
+				, {"code":"910022", "name":"PROGRAMACION III", "credits":5, "requires":["910017"], "min":0}
+				, {"code":"910023", "name":"EMPRENDEDORES DE NEGOCIOS", "credits":5, "requires":[], "min":0}
+				, {"code":"910024", "name":"ELECTRONICA ANALOGICA", "credits":5, "requires":["910020"], "min":0}
+				, {"code":"910025", "name":"ESTADISTICA II", "credits":5, "requires":["910019"], "min":0}
+				]
+			}
+			, {
+				"name":"SEXTO CICLO"
+				, "courses":[
+				{"code":"910026", "name":"INVESTIGACION DE OPERACIONES", "credits":5, "requires":[], "min":80}
+				, {"code":"910027", "name":"BASES DE DATOS I", "credits":5, "requires":["910022"], "min":0}
+				, {"code":"910028", "name":"AUTOMATAS Y LENGUAJES FORMALES", "credits":5, "requires":[], "min":80}
+				, {"code":"910029", "name":"SISTEMAS OPERATIVOS I", "credits":5, "requires":[], "min":80}
+				, {"code":"910030", "name":"ELECTRONICA DIGITAL", "credits":5, "requires":["910024"], "min":0}
+				]
+			}
+			, {
+				"name":"SÉPTIMO CICLO"
+				, "courses":[
+				{"code":"910031", "name":"BASES DE DATOS II", "credits":5, "requires":["910027"], "min":0}
+				, {"code":"910032", "name":"ANALISIS DE SISTEMAS I", "credits":5, "requires":[], "min":100}
+				, {"code":"910033", "name":"SISTEMAS OPERATIVOS II", "credits":5, "requires":["910029"], "min":0}
+				, {"code":"910034", "name":"ARQUITECTURA DE COMPUTADORAS I", "credits":5, "requires":[], "min":100}
+				, {"code":"910035", "name":"COMPILADORES", "credits":5, "requires":["910028"], "min":0}
+				]
+			}
+			, {
+				"name":"OCTAVO CICLO"
+				, "courses":[
+				{"code":"910036", "name":"DESARROLLO WEB", "credits":5, "requires":["910031"], "min":0}
+				, {"code":"910037", "name":"ANALISIS DE SISTEMAS II", "credits":5, "requires":["910032"], "min":0}
+				, {"code":"910038", "name":"REDES DE COMPUTADORAS I", "credits":5, "requires":[], "min":125}
+				, {"code":"910039", "name":"ETICA PROFESIONAL", "credits":4, "requires":[], "min":100}
+				, {"code":"910040", "name":"ARQUITECTURA DE COMPUTADORAS II", "credits":5, "requires":["910034"], "min":0}
+				]
+			}
+			, {
+				"name":"NOVENO CICLO"
+				, "courses":[
+				{"code":"910041", "name":"ADMINISTRACION DE TECNOLOGIAS DE INFORMACION", "credits":5, "requires":[], "min":150}
+				, {"code":"910042", "name":"INGENIERIA DE SOFTWARE", "credits":5, "requires":[], "min":150}
+				, {"code":"910043", "name":"PROYECTOD DE GRADUACION I", "credits":6, "requires":[], "min":150}
+				, {"code":"910044", "name":"REDES DE COMPUTADORAS II", "credits":5, "requires":["910038"], "min":0}
+				, {"code":"910045", "name":"INTELIGENCIA ARTIFICIAL", "credits":5, "requires":[], "min":150}
+				]
+			}
+			, {"name":"DÉCIMO CICLO"
+				, "courses":[
+				{"code":"910046", "name":"TELECOMUNICACIONES", "credits":5, "requires":[], "min":175}
+				, {"code":"910047", "name":"SEMINARIOS DE TECNOLOGIAS DE INFORMACION", "credits":6, "requires":[], "min":175}
+				, {"code":"910048", "name":"ASEGURAMIENTO DE LA CALIDAD DEL SOFTWARE", "credits":5, "requires":[], "min":175}
+				, {"code":"910049", "name":"PROYECTO DE GRADUACION II", "credits":6, "requires":["910043"], "min":0}
+				, {"code":"910050", "name":"SEGURIDAD Y AUDITORIA DE SISTEMAS", "credits":5, "requires":[], "min":175}
+				]
+			}
+		]
+	}
+}
